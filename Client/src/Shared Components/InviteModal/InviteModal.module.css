@@ -1,0 +1,108 @@
+.modalMask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBody {
+  width: 50%;
+  max-width: 500px;
+  background: #1d1d1d;
+  border-radius: 20px;
+  position: relative;
+}
+
+.modalHeader {
+  padding: 15px 30px 30px 30px;
+  border-bottom: 2px solid #262626;
+}
+
+.heading {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.modalFooter {
+  padding: 0px 30px;
+  text-align: start;
+}
+
+.copyoption {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.validation {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(179, 179, 179);
+  font-size: 13px;
+}
+
+.code > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px 0 10px 20px;
+  width: 75%;
+  color: white;
+  background: #262626;
+  border-radius: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3px;
+  top: 8px;
+  background: none;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+  width: 75%;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerButton {
+  background: #20bd5f;
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  justify-content: center;
+  padding: 7px 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.footerButton:hover {
+  background: #13763b;
+}
+
+.copied {
+  background: #095829 !important;
+}

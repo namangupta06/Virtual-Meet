@@ -1,0 +1,245 @@
+.server__Settings {
+  height: calc(100vh);
+  width: 100vw;
+  display: flex;
+}
+
+.server__menu {
+  width: 204px;
+  background-color: rgb(48, 48, 48);
+  overflow-y: auto;
+}
+
+.servermenu__wrapper {
+  margin: 30px 0 0 40px;
+}
+
+.overview {
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  color: rgba(131, 131, 133, 255);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: cursive;
+  letter-spacing: 1.3px;
+}
+
+.hovered {
+  color: white !important;
+}
+
+.delhovered {
+  color: rgb(255, 0, 0) !important;
+}
+
+.border {
+  height: 1px;
+  width: 80%;
+  border: 0.5px solid rgb(160, 160, 160);
+  margin-bottom: 12px;
+}
+
+.del__server {
+  color: rgb(190, 40, 40);
+}
+
+.content {
+  display: flex;
+  width: calc(100vw - 204px);
+  justify-content: center;
+  background-color: rgb(63, 63, 63);
+  font-family: cursive;
+}
+
+.set__content {
+  margin-top: 30px;
+  width: 90%;
+}
+
+.sett__name {
+  font-size: 18px;
+}
+
+.set__1 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(175, 175, 175);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.set__1 > p {
+  margin: 10px 0;
+  margin-right: 15px;
+}
+
+.set__1 > input {
+  height: 40px;
+  width: 70%;
+  border: 1px solid black;
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.set__footer {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.set__footer > button {
+  background-color: rgb(85, 90, 99);
+  color: white;
+  margin: 7px;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.set__desc {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(197, 197, 197);
+}
+
+.create__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.create__btn > button {
+  padding: 5px 12px;
+  background-color: rgb(82, 133, 228);
+  color: white;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.set__display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.set__display > p {
+  display: flex;
+  justify-content: center;
+}
+
+.role,
+.mem,
+.cat,
+.btn {
+  width: 25%;
+}
+
+.role__data {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.role__data > p {
+  display: flex;
+  justify-content: center;
+}
+
+.del__role {
+  color: rgb(190, 40, 40);
+  cursor: pointer;
+}
+
+.green {
+  color: rgb(75, 231, 75);
+}
+
+.mem__display {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.display__role {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  letter-spacing: 1.3px;
+}
+
+.role__options {
+  text-transform: uppercase;
+  font-size: small;
+}
+.role__optionsselect {
+  text-transform: uppercase;
+  width: 130px;
+  background: #323232;
+  padding: 10px;
+  color: #fff;
+  font-size: small;
+  border-radius: 10px;
+  border: none;
+}
+
+.role__optionsselect:focus {
+  border: none;
+  outline: none;
+}
+.role__optionsselect:active {
+  border: none;
+  outline: none;
+}
+
+.roles__display {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.roles__width {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.per__role {
+  padding: 5px 10px;
+  margin: 0 3px;
+  background: #323232;
+  color: white;
+  font-size: small;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.add__roles {
+  margin-left: 3px;
+  color: #323232;
+  background-color: rgb(200, 200, 200);
+  border-radius: 50%;
+}
+
+.del__role {
+  margin-left: 5px;
+}

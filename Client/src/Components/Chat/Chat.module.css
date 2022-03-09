@@ -1,0 +1,223 @@
+.messenger {
+  height: calc(100vh);
+  width: 100vw;
+  display: flex;
+}
+
+.messenger::-webkit-scrollbar {
+  display: none;
+}
+
+.server__menu {
+  flex: 1.5;
+  background-color: rgb(48, 48, 48);
+}
+
+.serverName__wrapper {
+  margin: 30px 10px 10px 10px;
+}
+
+.chat__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chat__Box {
+  flex: 8.5;
+  background-color: rgb(63, 63, 63);
+  font-family: cursive;
+}
+
+.chatBox__top {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.send__chat {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: cursive;
+}
+
+.write__mssg {
+  width: 90%;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  background-color: rgba(64, 68, 75, 255);
+  color: white;
+  font-family: cursive;
+}
+
+.write__mssg::placeholder {
+  color: rgba(114, 118, 125, 255);
+  font-family: cursive;
+}
+
+.send__mssg {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emoji__selection {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.emojis {
+  position: absolute;
+  bottom: 72px;
+  left: 10px;
+}
+
+.dm__navbar {
+  width: 100%;
+  background: rgb(48, 48, 48);
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  color: rgb(236, 236, 236);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 80px;
+}
+
+.friend {
+  padding: 20px 20px;
+  width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.phone__call {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.go__back {
+  border: 1px white solid;
+  border-radius: 50%;
+  margin-left: 15px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.go__back__icon {
+  width: 25px;
+  height: 15px;
+}
+
+.calling__area {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.me__calling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 90%;
+}
+
+.me__calling > video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.video__containers > video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.calling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calling > .calling__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.video__containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 90%;
+}
+
+.settings__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set__icons {
+  width: 25px;
+  height: 25px;
+  color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.sett__cover {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(64, 68, 75, 255);
+  margin: 7px;
+}
+
+.cut {
+  background-color: rgb(224, 68, 68) !important;
+}
+
+.accept__btn,
+.decline__btn {
+  background-color: rgb(85, 90, 99);
+  color: white;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.calling > h1 {
+  font-size: medium;
+}

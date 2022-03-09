@@ -1,0 +1,31 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px 0 30px;
+}
+
+.message__writer {
+  color: rgb(22, 219, 111);
+}
+
+.message__top {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 7px;
+}
+
+.message__time {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.message__content {
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
+
+.own {
+  align-items: flex-end;
+}
