@@ -1,6 +1,6 @@
 # Virtual Meet - Full Stack Project
 
-Virtual Meet is a full-stack project that allows users to create virtual rooms and participate in group video calls and chat with other members of the room. It is built using a combination of React, Node.js, and WebRTC.
+Virtual Meet is a full-stack project that allows users to create virtual rooms and participate in group video calls and chat with other members of the room. Additionally, it also supports direct messaging between users for private conversations. It is built using a combination of React, Node.js, WebRTC, and Socket.io.
 
 ## Features
 
@@ -8,8 +8,10 @@ Virtual Meet is a full-stack project that allows users to create virtual rooms a
 - Join a virtual room using the URL
 - Video call with other members of the room
 - Group chat with other members of the room
+- Direct message other members of the room
 - Mute/unmute audio and video during a video call
 - Leave the virtual room
+- Send and receive files during group chat and direct messages
 
 ## Technologies Used
 
@@ -17,8 +19,6 @@ Virtual Meet is a full-stack project that allows users to create virtual rooms a
 - Node.js
 - WebRTC
 - Socket.io
-- HTML/CSS
-- Bootstrap
 
 ## Setup
 
@@ -74,10 +74,19 @@ To run Virtual Meet on your local machine, follow these steps:
 
 ### Group Chat
 
-1. During the video call, click on the "Open Chat" button to open the group chat.
+1. During the video call or in the virtual room, click on the "Open Group Chat" button to open the group chat.
 2. Type your message in the chat box and press the "Enter" key to send it.
 3. Receive messages from other members of the room in real-time.
 
-## Conclusion
+### Direct Messaging
 
-Virtual Meet is a simple yet effective solution for group video calling and chat. Its user-friendly interface and easy setup make it an ideal choice for small teams or groups who want to collaborate remotely. If you have any questions or feedback, please feel free to contact us.
+1. In the virtual room or group chat, click on the "Direct Messages" button.
+2. Select the user you want to start a conversation with.
+3. Type your message in the chat box and press the "Enter" key to send it.
+4. Receive messages from the user in real-time.
+
+### Sending and Receiving Files
+
+1. In the group chat or direct messaging, click on the "File Attach" button.
+2. Select the file you want to send and click on the "Send" button.
+3. Receive files from other users in real-time.
